@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Google",
+    "slug": "Google",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.paragj.Google"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "parag",
+    "extra": {
+      "eas": {
+        "projectId": "805f03c9-9407-494c-9190-4933e6a02e5b"
+      }
+    }
+  }
+}
